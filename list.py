@@ -1,0 +1,21 @@
+name = ["karan","27","13.5"]
+print(type(name))
+name[0] = "Arjun"
+print(name)
+age = [23, 57, 23, 78, 11]
+print(age[1:5])
+print(age[-3:])
+age.append(89)
+print(age)
+age.sort()
+print(age)
+age.sort(reverse=True)
+print(age)
+age.reverse()
+print(age)
+age.insert(3,67)
+print(age)
+age.remove(57)
+print(age)
+age.pop(4)
+print(age)
