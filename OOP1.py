@@ -7,3 +7,6 @@ class student:
 
 s1 = student("Karan")
 print(s1.name) 
+
+s2 = student("Arjun")
+print(s2.name) 
