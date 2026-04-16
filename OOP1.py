@@ -6,4 +6,4 @@ class student:
         print("Adding new students in class: ")
 
 s1 = student("Karan")
-print(s1.name)
+print(s1.name) 
