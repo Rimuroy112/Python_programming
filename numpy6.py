@@ -9,3 +9,5 @@ print(arr1[0:2,2:3])
 indices = [0,2]
 print(arr1[indices ,:])
 print(arr1[:, indices])
+bool_mask = (arr1>2) & (arr1<9)
+print(arr1[bool_mask])
