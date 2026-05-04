@@ -1,0 +1,17 @@
+import numpy as np
+values = np.array([-1.2, -7.5, 0.3, 1.6, 1.4])
+print(np.abs(values))
+print(np.sign(values))
+print(np.round(values))
+print(np.floor(values))
+print(np.ceil(values))
+print(np.trunc(values))
+
+arr1 = np.array([1,2,3,4])
+arr2 = np.array([2,2,2,2])
+print(np.less(arr1,arr2))
+print(np.greater_equal(arr1,arr2))
+print(np.equal(arr1, arr2))
+print(np.not_equal(arr1, arr2))
+print(np.argmin(arr1))
+print(np.argmax(arr1))
